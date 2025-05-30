@@ -13,10 +13,10 @@ const bot = mineflayer.createBot({
 });
 
 const db = new Client({
-  user: 'postgres',
+  user: 'put ur postgres user here',
   host: 'localhost',
   database: 'shulker_db',
-  password: 'postgres',
+  password: 'password here',
   port: 5432
 });
 
